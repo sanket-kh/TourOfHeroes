@@ -1,0 +1,19 @@
+.back {
+  color: #333;
+  background-color: #d9d6d6;
+  margin-bottom: 10px;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.back:hover {
+  color: #ffffff;
+  background-color: #232323;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}

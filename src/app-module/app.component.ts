@@ -4,7 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import {HeroesComponent} from "./heroes/heroes.component";
 import {HeroDetailComponent} from "./hero-detail/hero-detail.component";
 import {MessagesComponent} from "./messages/messages.component";
-import {AppRoutingModule} from "./app-routing/app-routing.module";
+import {AppRoutingModule} from "../app-routing/app-routing.module";
 
 @Component({
   selector: 'app-root',

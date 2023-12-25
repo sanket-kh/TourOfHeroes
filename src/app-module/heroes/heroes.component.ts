@@ -27,6 +27,10 @@ export class HeroesComponent {
   selectedHero?: Hero;
   title: string = 'Tour of Heroes';
 
+  addNewHero(heroName:string){
+    this.heroes?.push({id:this.heroes?.length+12, name:heroName})
+  }
+
   getHeroes():void{
     this.heroService.getHeroes().subscribe(heroes => this.heroes = heroes);
   }

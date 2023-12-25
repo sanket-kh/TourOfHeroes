@@ -9,4 +9,6 @@
     <label for="hero-name"> Hero Name: {{hero.name}}</label>
     <input id="hero-name" [(ngModel)]="hero.name" [placeholder]="hero.name">
   </div>
+  <button type="button" (click)="this.location.back()" class="back">Back</button>
+  <a routerLink="/dashboard" ><button type="button" class="back"> Home</button></a>
 </div>
